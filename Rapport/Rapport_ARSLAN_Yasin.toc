@@ -1,0 +1,70 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {paragraph}{}{3}
+\contentsline {section}{\numberline {2}Cr\IeC {\'e}ation des structures de donn\IeC {\'e}es et fonctions de base }{4}
+\contentsline {subsection}{\numberline {2.1}Pr\IeC {\'e}sentation}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {subsection}{\numberline {2.2}Structures}{4}
+\contentsline {paragraph}{names\newline }{4}
+\contentsline {paragraph}{InformedPeople\newline }{4}
+\contentsline {paragraph}{network\newline }{4}
+\contentsline {subsection}{\numberline {2.3}Fonctions}{4}
+\contentsline {subsubsection}{\numberline {2.3.1}Fonctions principales}{4}
+\contentsline {paragraph}{inputData\newline }{4}
+\contentsline {paragraph}{PrintStates\newline }{4}
+\contentsline {paragraph}{update\newline }{4}
+\contentsline {paragraph}{main (Ex\IeC {\'e}cution )\newline }{5}
+\contentsline {subsubsection}{\numberline {2.3.2}Fonctions suppl\IeC {\'e}mentaires}{5}
+\contentsline {paragraph}{input\_names\newline }{5}
+\contentsline {paragraph}{user\_friendship\newline }{5}
+\contentsline {paragraph}{create\_rumor\newline }{5}
+\contentsline {subsection}{\numberline {2.4}Exemple d'ex\IeC {\'e}cution}{5}
+\contentsline {paragraph}{-------------------------------------------------------------------------------- \newline Number of steps of the simulation : \textbf {1} \newline Enter the number of people in the network : \textbf {3} \newline Enter the name of the 1 person : \textbf {Alice} \newline Entre the name of the 2 person : \textbf {Bob} \newline Enter the name of the 3 person : \textbf {Yasin} \newline Alice and Bob are friends (1 if yes, else 0) : \textbf {1} \newline Alice and Yasin are friends (1 if yes, else 0) : \textbf {0} \newline Bob and Yasin are friends (1 if yes, else 0) : \textbf {1} \newline Enter the person at the origin of the rumor : \textbf {Yasin} \newline \#\#\# \newline Initial: \newline Alice doesn't know the rumor. \newline Bob doesn't know the rumor. \newline Yasin knows the rumor. \newline \#\#\# \newline Step 1: \newline Alice doesn't know the rumor. \newline Bob knows the rumor. \newline Yasin knows the rumor. \newline --------------------------------------------------------------------------------}{5}
+\contentsline {section}{\numberline {3}Fonctionnalit\IeC {\'e}s suppl\IeC {\'e}mentaires sur terminal}{6}
+\contentsline {subsection}{\numberline {3.1}Pr\IeC {\'e}sentation}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {subsubsection}{\numberline {3.1.1}Librairies}{6}
+\contentsline {paragraph}{Argparse\newline }{6}
+\contentsline {paragraph}{Random\newline }{6}
+\contentsline {subsubsection}{\numberline {3.1.2}Fonctionnalit\IeC {\'e}s}{6}
+\contentsline {subsection}{\numberline {3.2}Nouveaut\IeC {\'e}s}{6}
+\contentsline {subsubsection}{\numberline {3.2.1}Binaire}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {subsubsection}{\numberline {3.2.2}Chargement du r\IeC {\'e}seau}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {subsection}{\numberline {3.3}Modification de la partie 1}{7}
+\contentsline {subsubsection}{\numberline {3.3.1}Structures}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {subsubsection}{\numberline {3.3.2}Fonctions}{7}
+\contentsline {paragraph}{Printstates\newline }{7}
+\contentsline {paragraph}{update\newline }{7}
+\contentsline {subsubsection}{\numberline {3.3.3}Param\IeC {\`e}tres}{7}
+\contentsline {subsection}{\numberline {3.4}Nouvelles fonctions}{7}
+\contentsline {subsection}{\numberline {3.5}Exemple d'ex\IeC {\'e}cution}{8}
+\contentsline {section}{\numberline {4}Interface graphique}{9}
+\contentsline {subsection}{\numberline {4.1}Pr\IeC {\'e}sentation}{9}
+\contentsline {subsection}{\numberline {4.2}Repr\IeC {\'e}sentation sur le canvas}{9}
+\contentsline {subsubsection}{\numberline {4.2.1}Utilisateur}{9}
+\contentsline {subsubsection}{\numberline {4.2.2}Lien d'amiti\IeC {\'e}}{9}
+\contentsline {subsubsection}{\numberline {4.2.3}Rumeur}{9}
+\contentsline {subsection}{\numberline {4.3}Cr\IeC {\'e}ation manuel du r\IeC {\'e}seau via interface}{9}
+\contentsline {subsubsection}{\numberline {4.3.1}Cr\IeC {\'e}ation des utilisateurs}{9}
+\contentsline {subsubsection}{\numberline {4.3.2}Cr\IeC {\'e}ation des relations d'amiti\IeC {\'e}s}{9}
+\contentsline {subsection}{\numberline {4.4}Cr\IeC {\'e}ation manuel du r\IeC {\'e}seau via boite de dialogue}{9}
+\contentsline {subsection}{\numberline {4.5}Cr\IeC {\'e}ation automatique du r\IeC {\'e}seau}{10}
+\contentsline {subsection}{\numberline {4.6}Chargement du r\IeC {\'e}seau via un fichier}{10}
+\contentsline {subsection}{\numberline {4.7}Exclusivit\IeC {\'e} interface graphique}{10}
+\contentsline {subsubsection}{\numberline {4.7.1}Sauvegarde du r\IeC {\'e}seau}{10}
+\contentsline {subsubsection}{\numberline {4.7.2}Statistiques}{10}
+\contentsline {subsubsection}{\numberline {4.7.3}Envoyer \IeC {\`a} tous}{10}
+\contentsline {subsubsection}{\numberline {4.7.4}Cluedo}{10}
+\contentsline {subsubsection}{\numberline {4.7.5}Modification du r\IeC {\'e}seau}{10}
+\contentsline {subsection}{\numberline {4.8}Annexe}{11}
+\contentsline {subsubsection}{\numberline {4.8.1}Exemple de r\IeC {\'e}seau avec lien d'amiti\IeC {\'e}}{11}
+\contentsline {subsubsection}{\numberline {4.8.2}Exemple de cr\IeC {\'e}ation de lien d'amiti\IeC {\'e}}{11}
+\contentsline {subsubsection}{\numberline {4.8.3}Statistiques d'un r\IeC {\'e}seau}{12}
+\contentsline {subsubsection}{\numberline {4.8.4}Modification possible du Cluedo}{12}
+\contentsline {section}{\numberline {5}Conclusion}{12}

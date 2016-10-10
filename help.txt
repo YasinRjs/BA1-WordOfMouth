@@ -1,0 +1,60 @@
+Pour lancer :
+python3 GUI.py
+
+n'hésitez pas à load le fichier "loadFromGUI.txt" depuis le GUI.
+----------------------
+
+
+Pour l'utilisation, il vous faudra suivre les étapes suivantes :
+
+1. Peupler votre réseau avec des noeuds.
+Il suffit de cliquer sur le bouton " New node ".
+Un oval entouré de pointillés rouge fera son apparition sur le canvas 
+pour montrer à l'utilisateur la place qu'aura le noeud.
+
+2. Pour supprimer un noeud, un simple double clique sur le noeud 
+le fera disparaitre du canvas et le supprimera entièrement du réseau.
+
+3. Ensuite ajouter des liens d'amitié dans votre réseau.
+Utiliser la méthode <Drag-and-Drop> d'un utilisateur vers un autre.
+Pour cette partie, on suppose que si A est ami avec B, alors B est 
+ami avec A.
+
+4. Pour voir les liens d'amitié d'un noeud, il suffit de le survoler.
+La personne survolé sera mise en evidence et une ligne rouge sera tracé.
+Les amis de la personne veront une ligne bleu apparaitre. Toutes ces lignes 
+se rejoignent au milieu.
+
+5. La suppression d'amitié se fait par clique droit <Modify Friendship>.
+Il faudra cliquer sur la personne a supprimé des amis et appuyer sur le bouton
+delete.
+
+6. Pour propager une rumeur, il faut choisir une personne ( ou plus ) à l'origine 
+de la rumeur via le clique droit et modifier sa couleur. La couleur étant la rumeur 
+de chaque personne. Tous commencent le réseau par une rumeur 0, signifiant qu'ils 
+ne connaissent pas la rumeur.
+
+7. Lors de la propagation et lorsque la propagation a commencé,
+certaines options ont été confisqués à l'utilisateur. D'autres ont été autorisé 
+pour rendre la propagation plus interactif et voir les différences.
+
+8. Pour finir différents options et boutons s'offrent à vous :
+----- Options -------
+*DISPLAY : La manière dont sera représenté le réseau graphiquement.
+*NODE WIDTH : La taille des noeuds.
+*NODE EDGE : La taille des liens d'amitié.
+*DELAY : Le delai entre 2 executions.
+*SELECTION POLICY : La manière dont la rumeur est transmise.
+*RUMOR RULE & PROBABILITY : La possibilité de modification de la rumeur 
+lors de la propagation et la probabilité entre 0.0 et 1.0 .
+*SPREAD RULE : La manière dont la personne va apprendre la rumeur.
+
+---- Bouttons ------
+*NEW NODE : Ajouter un nouveau noeud.
+*PROPAGATE : Simuler une exécution, c'est à dire chaque personne 
+connaissant une rumeur la transmet à une personne de sa liste d'amis.
+*RUN : Offre une nouvelle fenêtre demandant le nombre de tour à executer,
+ensuite éxecute le nombre demandé.
+*RESET STEPS : Remets le réseau à l'étape initiale sans supprimer les noeuds et les 
+liens d'amitié.
+*SET DEFAULT : Mets les paramètres d'execution par défaut.
